@@ -1,12 +1,8 @@
 package de.kenbun.kidou.cloud.examples;
 
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.DataLine;
-import javax.sound.sampled.TargetDataLine;
+import javax.sound.sampled.*;
 import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.WebSocket;
+import java.net.http.*;
 import java.nio.ByteBuffer;
 import java.time.Instant;
 import java.util.concurrent.CompletionStage;
